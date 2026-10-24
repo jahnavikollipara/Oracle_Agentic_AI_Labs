@@ -1,0 +1,2 @@
+I learned about Model Context Protocol (MCP) and how it connects AI agents with external tools and services. 
+I created an MCP math server using Python and exposed tools for addition, multiplication, division, and square root calculations. I connected the MCP server to a LangChain agent using MultiServerMCPClient, allowing the agent to discover and use the tools automatically. I also explored how to use my local Qwen 2.5 model through Ollama with the MCP server to perform mathematical operations.
