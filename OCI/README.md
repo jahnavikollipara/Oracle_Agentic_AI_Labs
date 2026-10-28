@@ -1,0 +1,3 @@
+I explored Oracle Agentic AI concepts, including LangChain fundamentals, prompt engineering, LCEL, conversation memory, tool calling, and the ReAct pattern. I built AI agents using Python tools for mathematical operations and integrated the locally running Qwen 2.5 model through Ollama to understand how LLMs can reason and use external tools.
+
+I also learned about the Model Context Protocol (MCP) and created a Python-based math server using FastMCP, connecting it to a LangChain agent using `MultiServerMCPClient`. Additionally, I studied OCI concepts such as hosted AI agent deployment, managed inference, container registry, RAG, code interpreters, tool routing, and guardrails, gaining an understanding of how cloud infrastructure supports agentic AI applications.
