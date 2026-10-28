@@ -1,0 +1,4 @@
+I learned and implemented the Model Context Protocol (MCP) by building a real-world MCP-based mathematical assistant using Python, FastMCP, LangChain, and Ollama. I created an MCP math server that exposes tools for addition, multiplication, division, and square root calculations. This helped me understand how an MCP server makes functions available to an AI agent instead of keeping all the logic inside the language model.
+
+I connected the MCP server to a LangChain agent using `MultiServerMCPClient` and integrated the locally running Qwen 2.5 (1.5B) model through Ollama. When a user asks a mathematical question, the agent can select the appropriate tool, request its execution through MCP, receive the result, and provide a final answer. This hands-on project helped me understand MCP client-server communication, tool discovery, tool execution, and how AI agents interact with external capabilities.
+
